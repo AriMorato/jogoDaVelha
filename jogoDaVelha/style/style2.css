@@ -1,0 +1,158 @@
+body{
+    overflow:hidden;
+    margin: 0;
+}
+.game{
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0b81af;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jogoDaVelha{
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 50vw;
+    flex-direction: row;
+
+}
+
+.tabuleiro{
+    height: 100%;
+    width: 100%;
+    background-color: #4f8699;
+    border-radius: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td{
+    background-size: 90%;
+}
+
+#titulo{
+    font-size: 40px;
+    margin: 0;
+}
+
+#marcaVez{
+    margin:0;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+#mandoDeJogo{
+    height: 6vh;
+    width: 20vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+#mandoDeJogo img{
+    width: auto;
+    max-height: 6.5vh;
+   
+}
+#mandoDeJogo p{
+    font-size: 20px;
+    height: 6vh;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.arena{
+    height: 50vh;
+    width: 20vw;
+    align-items: center;
+    border-spacing: 3px;
+ }
+
+
+.celula{
+    text-align: center;
+    background-color:rgb(195, 194, 194);
+   /*  border: 2px solid rgb(155, 43, 2); */
+    background-size: auto;
+}
+ 
+#controlGame{
+    display: none;
+    z-index: 11;
+    height: 70vh;
+    width: 50vw;
+    position: absolute;
+    border-radius: 35px;
+    background: rgba(31, 47, 58, 0.3);
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: 3;
+    height: 55vh;
+    width: 35vw;
+    /* background-color:#f2a772; */
+    margin: 0;
+    margin: auto;
+    border-radius: 35px;
+
+    margin-top: 7vh;
+   
+}
+
+.modal p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    margin: auto;
+    font-size: 1.5vw;
+    color: rgb(249, 244, 244);
+    background-color:  rgba(73, 0, 126, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#botao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(249, 244, 244);
+    font-size: 1vw;
+    text-align: center;
+    width: 15vw;
+    height: 7vh;
+    background-color: rgba(73, 0, 126, 0.9);
+    border-radius: 15px;
+    border-style: none;
+    margin: 0;
+    margin: auto;
+}
+
+/* .placar{
+    height: 100%;
+    width: 50%;
+    background-color: #1bb0ce;
+    border-radius: 35px;
+    margin-left: 1%;
+   
+} */
+
+/* input[type='radio']{
+    border:0px;
+    width: 25px;
+    height: 25px;
+    margin-top:-1px;  
+} */

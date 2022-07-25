@@ -1,0 +1,68 @@
+.jogoDaVelha{
+  
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+  
+}
+
+.arenaDeJogadas{
+
+   width: 450px;
+   height: 450px;
+   background-color:rgb(195, 194, 194);
+   align-items: center;
+   border: 2px solid rgb(155, 43, 2);
+   border-collapse: collapse;
+}
+.celula{
+   text-align: center;
+  
+}
+
+
+.celula td{
+   border: 2px solid rgb(155, 43, 2);
+   background-size: auto;
+}
+
+/* td:hover{
+   background-color: rgb(155, 43, 2);  ;
+} */
+
+#winner{
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 35px;
+   padding: 20px;
+}
+#controlGame{
+   z-index: 10;
+   height: 100vh;
+   width: 100vw;
+   background-color: #d1dbc8;
+   opacity: 0.5;
+   justify-items: center;
+   overflow: hidden;
+   flex: content;
+}
+.modal{
+   text-align: center ;
+   z-index: 11;
+}
+
+#botao{
+   width: 450px;
+   height: 40px;
+   background-color: rgb(5, 144, 98);
+   padding: 20px;
+   padding-top: 10px;
+   margin:0;
+   margin: auto;
+   border-radius: 5px;
+   
+}
+
+

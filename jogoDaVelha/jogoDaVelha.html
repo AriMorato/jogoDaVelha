@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/style2.css">
+        <title>Jogo da Velha</title>
+    </head>
+    <body>
+        
+        <div class="game">
+            <div class="jogoDaVelha">
+                <div class="tabuleiro">
+                  <p id = "titulo">Jogo da Velha</p>              
+                  <p id = "marcaVez">Mando da Jogada</p>              
+                    <div id="mandoDeJogo"><p id="gamer01"><img src="img/circulo.png" /></p><p id="gamer02"><img src="img/asterisco.png"/></p></div>
+                    <table class="arena">
+                        <tr class="celula">
+                            <td id="1"></td>
+                            <td id="2"></td>
+                            <td id="3"></td>
+                        </tr>
+                        <tr class="celula">
+                            <td id="4"></td>
+                            <td id="5"></td>
+                            <td id="6"></td>
+                        </tr>
+                        <tr class="celula">
+                            <td id="7"></td>
+                            <td id="8"></td>
+                            <td id="9"></td>
+                        </tr>
+                    </table>
+                </div>
+               
+                <div id="controlGame">
+                    <div class="modal">
+                        <p id="winner"></p>
+                        <button id="botao">Reiniciar Partida!</button>
+                    </div>
+        </div>
+        
+       <script type="application/javascript" src="./js/jogoDaVelha.js"></script>
+    </body>
+</html>
